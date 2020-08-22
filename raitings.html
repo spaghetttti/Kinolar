@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="discription" content="We kinda like movies">
+	<meta name="keywords" content="movies,films">
+	<link rel="stylesheet" type="text/css" href="sources/css/style1.css"/>
+
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+			<a href="index1.html"> Kinolar </a>
+
+			</div>
+			<div class="logo_text">
+			<p>We kinda like movies!</p>
+
+			</div>
+		</div>
+		<div class="menubar">
+			<ul class="menu">
+				<li><a href="index1.html">Main page</a></li>
+				<li><a href="movielist.html">Movies</a></li>
+				<li><a href="#">TV shows</a></li>
+				<li class="gulag"><a href="raitings.html">Raitings</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href
+					="C:\Users\G50\Dropbox\web-shit\Khalifa.html">Mia</a></li>
+			</ul>
+
+		</div>
+		<div class="site_content">
+			<div class="sitebar_container">
+				<div class="sidebar">
+						<h2>Search</h2><hr>	
+						<form method="post" action="#" id="search_form">
+							<input type="search" name="search_field" placeholder="Your request"/>
+							<input type="submit" class="btn"
+							value="Search"/>
+						</form>
+
+				</div>
+				<div class="sidebar">
+					<h2>Enter</h2><hr>	
+					<form method="post" action="#" id="login">
+							<input type="text" name="login_field" placeholder="Your login"/>
+							<input type="password" name="login_password" placeholder="Your password"/>
+							<input type="submit" class="btn"	value="Enter"/>
+								<div class="lables_passreg_text">
+										<span><a href="#">Forgot your password,asshole?</a></span> <br> <span><a href="#">
+										Create an account</a></span>
+								</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>News</h2><hr>	
+					<span id="date1" class="date"></span>
+					<script>
+						let x = Date();
+						document.getElementById("date1").innerHTML = x;
+					</script>
+					<p class="date">We shot a movie, wonna see?</p>
+					<a href="#">WATCH</a>
+				</div>
+				<div class="sidebar">
+					<h2>Movie raitings</h2><hr>	
+					<ul class="raitingslist">
+						<li><a href="#">Interstellar</a><span class="raitings_sidebar">  9</span></li>
+						<li><a href="#">Whiplash</a><span class="raitings_sidebar">  8.7</span></li>
+						<li><a href="#">Parassite</a><span class="raitings_sidebar">  8.6</span></li>
+						<li><a href="#">Bleed for this</a><span class="raitings_sidebar">  8.5</span></li>
+							
+					</ul>
+
+				</div>
+
+
+			</div>
+				<br>
+			<div class="content">
+				<table class="table">
+					<tr>
+						<th></th>
+						<th>Name</th>
+						<th class="center">Year</th>
+						<th class="center">Raiting</th>
+					</tr>
+					<tr>
+						<td class="center"><img src="https://www.popmovee.com/uploads/1/9/6/2/19626163/interstellar-movie-2014-poster1_1_orig.jpg"></td>
+						<td>1
+							. <a href="movie.html">Interstellar</a>
+						</td>
+						<td class="center">2014</td>
+						<td class="center">9/10</td>
+					</tr>					
+					<tr>
+						<th></th>
+						<th></th>
+						<th class="center"></th>
+						<th class="center"></th>
+					</tr>
+					<tr>
+						<td class="center"><img src="https://cdn.hmv.com/r/w-1280/hmv/files/23/237b1732-997e-46c8-b1f9-47aa3f8ba8a4.jpg"></td>
+						<td>
+							2. <a href="#">Whiplash</a>
+						</td>
+						<td class="center">2014</td>
+						<td class="center">8.7/10</td>
+					</tr>
+					<tr>
+						<th></th>
+						<th></th>
+						<th class="center"></th>
+						<th class="center"></th>
+					</tr>
+					<tr>
+						<td class="center"><img src="https://i.pinimg.com/564x/0c/92/1c/0c921ca22494902088e55f009228941f.jpg"></td>
+						<td>
+							3. <a href="movie.html">Parasite</a>
+						</td>
+						<td class="center">2019</td>
+						<td class="center">8.6/10</td>
+					</tr>
+					<tr>
+						<th></th>
+						<th></th>
+						<th class="center"></th>
+						<th class="center"></th>
+					</tr>
+					<tr>
+						<td class="center"><img src="https://images-na.ssl-images-amazon.com/images/I/81FwoZLSjlL._SL1500_.jpg"></td>
+						<td>
+							4. <a href="#">Bleed for this</a>
+						</td>
+						<td class="center">2016</td>
+						<td class="center">8.5/10</td>
+					</tr>	
+				</table>	
+		
+
+
+			</div>
+
+</body>
+</html>

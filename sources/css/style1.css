@@ -1,0 +1,644 @@
+	input[type="text"], input[type="password"], input[type="search"]
+	{
+		color: darkblue;
+		width: 54%;
+		padding: 2px;
+	}
+
+	body
+	{
+		background-color: rgba(75, 102, 151, 1);
+		animation-name: example;
+  		animation-duration: 10s;
+		color:white;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes example 
+	{
+  	0% {background-color: rgba(75, 102, 151, 1);}
+  	14% {background-color: rgba(72, 97, 151, 1);}
+  	28% {background-color: rgba(70, 95, 161, 1);}
+  	42% {background-color: rgba(63, 70, 170, 1);}
+  	56% {background-color: rgba(63, 70, 151, 1);}
+  	70% {background-color: rgba(63, 70, 170, 1);}
+  	84% {background-color: rgba(70, 95, 161, 1);}
+  	95% {background-color: rgba(72, 97, 151, 1);}
+  	100% {background-color: rgba(75, 102, 151, 1);}
+	}
+
+	p
+	{
+		color: white;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+	
+
+	hr
+	{
+		border-width: 1px;
+	}
+
+	input, textarea
+	{
+		outline-style: none;
+		outline: none ;
+		line-width: 4px;
+		border: outset 4px white;
+
+	}
+
+	h1, h2
+	{
+		font-family: "Lucida Console", Courier, monospace;
+		margin: 0 0 15px 0;
+		padding: 15px 0 5px 0;
+		color: white;
+		font-size: 170%;
+	}
+	h2
+	{
+		font-size: 140%;
+	}
+
+	a, a:hover
+	{
+		text-decoration: underline;
+		color: rgb(255, 245, 54);
+	}
+	
+	a
+	{
+		text-decoration: none;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+
+	ul
+	{
+		margin: 2px 0 22px 17px;
+	}
+
+	ul li
+	{
+		margin: 0 0 6px 0;
+		padding: 0 0 4px 0;
+		line-height: 1.5em;
+	}
+
+	.header
+	{
+		font-size: 43px;
+		background-color: rgba(0, 0, 59, 0.9);
+		color:white;
+		border-radius: 9px;
+		height: 180px;
+		min-width: 900px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.main, .logo, .menubar, .site_content, .footer
+	{
+		margin-right: auto;
+
+		margin-left: auto;
+	}
+
+	.logo, .logo_text
+	{
+		width: 880px;
+		padding-top: 40px;
+		margin-left: 120px;
+		font-family: "Lucida Console", Courier, monospace;
+		letter-spacing: 2px;
+	}
+
+	.logo_text,.logo a
+	{
+		text-decoration: none;
+		color: white;
+		padding-top: 10px;
+	}
+
+	.logo_text,.logo a:hover
+	{
+		text-decoration: none;
+		font-size: inherit;
+		padding-right:5px;
+	}		
+
+	.logo_text
+	{
+		font-size: 15px;
+	}
+
+	.menubar
+	{
+		width: 990px;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+
+	ul.menu
+	{
+		float: right;
+		text-decoration: none;
+		padding: 10px 300px 0 10px;
+
+	}
+
+	ul.menu li
+	{
+		list-style-type: none;
+		float: left;
+		border-radius: 24px;
+		border-color:  rgba(0, 0, 59, 0.9);
+		border-width: 0;
+		border-style: outset;
+		background-color:  rgba(0, 0, 59, 0.9);
+		padding:3px 3px 0 3px;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+
+	ul.menu li a
+	{
+		text-decoration: none;
+		color: white;
+		display: block;
+		padding: 4px;
+		margin-left: 4px;
+		margin-right: 4px;
+
+	}
+	ul.menu li.gulag a
+	{
+		color:blue;
+	}
+
+	ul.menu li a:hover
+	{
+		color:yellow;
+		font-size: 20px;
+	}
+
+	.date
+	{
+		font-family: "Lucida Console", Courier, monospace;
+		color: white;
+	}
+
+	.site_content
+	{
+		margin: 0 auto 0 auto ;
+		width: 880px;
+		height: auto; /* synx with sitebar_container height*/
+		overflow: hidden;
+		background-color: rgba(0, 0, 59, 0.9);
+		border-top-left-radius:24px;
+		border-top-right-radius:24px;
+	}
+
+	.sitebar_container
+	{
+		float: right;
+		width: 224px;
+		height: 1028px;
+		background-color: rgba(0, 0, 255, 0.15);
+	}
+
+	.sidebar
+	{
+		width: auto;
+		margin: 0px 10px 0px;
+	}
+
+
+	.btn
+	{
+		padding: 8px
+		cursor: pointer;
+	}
+	.sidebar h1
+	{
+		color: rgba(0, 0, 59, 0.9);
+	}
+	.lables_passreg_text a
+	{
+		font-size: 14px;
+	}
+	.sidbar .raitings_sidebar
+	{
+		float: left;
+	}	
+
+	ul.raitingslist li
+	{
+		list-style-type: decimal;	
+		color: white;
+		font-family: "Lucida Console", Courier, monospace;
+		background-color: rgba(0, 0, 57, 1);
+	    border-style: outset;
+	    border-color: rgba(0, 0, 57, 1);
+	}
+
+	.content
+	{
+		text-align: left;
+		width: 620px;
+		padding: 0 0 0 5px;
+		float: left;
+	}
+
+	.content a
+	{
+		text-decoration: none;
+
+	}
+
+	h1.Movie_list
+	{
+		background-color: black;
+	}
+	
+	.films_block img, .TV_shows_block img, .discription img
+	{
+		margin-left: 10px		 ;
+		width:150px;
+	 	height:250px;
+		padding: 12px;
+		border: 6px solid black;
+		background-color: white;
+	}
+	
+	.discription img
+	{
+		float: left;
+	}
+
+	.text_block p
+	{
+		padding: 0 15px  0 15px ;
+	}
+
+	.reviews
+	{
+		margin-bottom: 4%;	
+		font-size: 12px;
+		font-family: "Lucida Console", Courier, monospace;
+		margin-left: 0;
+	}
+	
+	.reviews .review_name
+	{
+		background-color: rgba(0, 0, 255, 0.15);
+		border-top-left-radius: 9px;
+		border-top-right-radius: 9px;
+		color: white;
+		font-size: 17px;
+		padding-left: 4px;
+	}
+	
+	.review_text
+	{
+		    background-color: white;
+    		color: black;
+				padding: 2px 2px 2px 0;
+		margin-left: 5px;
+	}
+
+	p.article , .article a
+	{
+		font-size: 13px;
+	}
+
+	.article a:hover
+	{
+		text-decoration: underline;
+	}
+	
+	.trailer
+	{
+		margin-left:44px;
+	}
+
+	.info_film_page
+	{
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.info_film_page span.label
+	{
+		color: white;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+	
+	.info_film_page span.value
+	{
+		color: white;
+	
+	}
+
+	.discription img
+	{
+		margin: 0 20px 20px 0;
+	}	
+
+	.send
+	{
+		margin-bottom: 4%;
+	}
+
+	.send input[type="text"], textarea
+	{
+		border: solid 4px darkblue;
+		margin-bottom: 2px;
+	}
+
+	.send input[type="text"]
+	{
+		width: 98%;
+	}
+
+	.send textarea
+	{
+		width: 624px;
+		height: 200px
+	}
+
+	.send input[type="submit"]
+	{
+		background-color: darkblue;
+		padding: 3%;
+		color: white;
+	}
+
+	.table
+	{
+		padding-top: 10px;
+		width: 100%;
+		border-radius: 9px;
+		border: 1px solid white;
+		color: white;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+	
+	td
+	{
+		vertical-align: middle;
+		text-align: center;	
+		border: 1px solid white;
+	}
+
+	.center img
+	{
+		height: 160px;
+		width: 110px;	
+		border: 3px;
+		border-style: outset;
+		border-color: grey;	
+	}
+
+	.info_film
+	{
+		margin: 14px 0 0 10px;
+		background-color: rgba(0, 0, 57, 1);
+		border-top-left-radius: 9px;
+		border-style: outset;
+		border-color: rgba(0, 0, 57, 1);
+		height: 215px;
+		float:right;
+		color: white;
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+
+	.info_film img
+	{
+		margin:5px 13px 0 5px;
+		height: 180px;
+		width: 130px;	
+		border: 3px;
+		float: left;
+		border-style: outset;
+		border-color: rgba(0, 0, 57, 1);	
+	}
+	
+	.info_film a:hover
+	{
+		padding: 5px;
+		font-size: 16px;
+	}
+
+	.button
+	{
+		border-radius: 9px;
+		background-color:rgba(239, 237, 235, 1);
+		padding: 4px;
+		clear: both;
+		float: right;
+	}
+
+	.button a
+	{
+		color: orange;
+		font-weight: 800;
+	}
+
+	.footer
+	{
+		width: 100%;
+		height: 100px;
+		padding: 28px 0 5px 0;
+		text-align: center;
+		background-color: rgba(0, 0, 59, 0.9);
+		border-radius: 9px;
+		color: white;
+
+	}
+
+	.footer a:hover
+	{
+		text-decoration: none;
+		color: yellow;
+		font-size: 20px;
+	}
+
+	.footer a
+	{
+		color: white;
+	}
+
+	/*Phone*/
+
+	@media only screen
+	and (min-device-width:320px)
+	and (max-device-width:568px)
+	{
+		.header 
+		{
+			background-color: rgb(39 92 117 / 95%);
+			min-width: 100%;
+			height: 150px;
+			text-align: center;
+		}
+		
+		.logo, .logo_text, .site_content 
+		{
+			width: 100%;
+			text-align: center;
+			margin: 0;
+		}
+
+		.logo a
+		{
+			text-align: none;
+					
+		}
+
+		.logo_text p
+		{
+			text-align: none;
+			margin-bottom: 0;
+			margin-top: 1%;
+		}
+		.menubar
+		{
+			width: 140%;
+			height: 100%;
+		}
+		
+		.site_content
+		{
+			text-align: center;
+		}
+			
+		.sitebar_container
+		{
+			display: none;
+		}
+	
+		.footer
+		{
+			display: none;
+		}
+
+		ul.menu
+		{
+			float: none;
+		}
+	
+		ul.mune li
+		{
+			padding: 0;
+			margin: 0;
+			float: none;
+		}	
+		.logo a
+		{
+			font: normal 130% "Lucida Console", Courier, monospace;
+		}
+		.logo_text
+		{
+			font: normal 40% "Lucida Console", Courier, monospace;
+		}
+		.content 
+		{
+			width: 100%;
+			text-align: center;
+		}
+
+		.content img
+		{
+			width: 100px;
+			height: 158px;	
+		}
+
+		.films_block, .TV_shows_block
+		{
+			margin-left: 0;
+			margin-right: 20px;
+		}
+
+		.content h1, h2
+		{
+			font: normal 150% "Lucida Console", Courier, monospace;	
+		}
+	
+		/* movielist.html */
+
+		.info_film img
+		{
+			width: 100px;
+			height: 150px;
+		}
+
+		.info_film
+		{
+			float: none;
+			height: 100%;
+			border-radius: 9px;
+			margin-right: 14px;
+			margin-bottom: 9%;
+		}
+
+		/* raiting page*/
+
+		table
+		{
+			display: block;
+		}
+
+		.table img
+		{
+			width: 37px	;	
+			height: 62px;
+		}
+
+		th
+		{
+			font-size: 75%;
+			padding: 0;
+			margin: 0;
+		}
+
+		td
+		{
+			font-size: 98%;
+			text-align: none;
+			padding: 0;
+			margin: 0;
+		}
+	
+		/*movie.html*/
+
+		iframe
+		{
+			width: 88%;
+			height: 100%;
+		}
+				
+		.trailer
+		{
+			margin: 0;
+			text-align: center;
+			margin-right: 10px;
+		}
+		.text_block 
+		{
+			text-align: none;
+			float: none;
+			width: 100%;
+			text-align: left;
+		}
+
+		.send textarea 
+		{
+			width: 100%;
+			height: 76px;
+		}	
+
+
+	}	
+

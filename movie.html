@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="discription" content="We kinda like movies">
+	<meta name="keywords" content="movies,films">
+	<link rel="stylesheet" type="text/css" href="sources/css/style1.css"/>
+
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+			<a href="index1.html"> Kinolar </a>
+
+			</div>
+			<div class="logo_text">
+			<p>We kinda like movies!</p>
+
+			</div>
+		</div>
+		<div class="menubar">
+			<ul class="menu">
+				<li><a href="index1.html">Main page</a></li>
+				<li><a href="movielist.html">Movies</a></li>
+				<li><a href="#">TV shows</a></li>
+				<li><a href="raitings.html">Raitings</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="C:\Users\G50\Dropbox\web-shit\Khalifa.html">Mia</a></li>
+			</ul>
+
+		</div>
+		<div class="site_content">
+			<div class="sitebar_container">
+				<div class="sidebar">
+						<h2>Search</h2><hr>
+						<form method="post" action="#" id="search_form">
+							<input type="search" name="search_field" placeholder="Your request"/>
+							<input type="submit" class="btn"
+							value="Search"/>
+						</form>
+
+				</div>
+				<div class="sidebar">
+					<h2>Enter</h2><hr>
+					<form method="post" action="#" id="login">
+							<input type="text" name="login_field" placeholder="Your login"/>
+							<input type="password" name="login_password" placeholder="Your password"/>
+							<input type="submit" class="btn"	value="Enter"/>
+								<div class="lables_passreg_text">
+										<span><a href="#">Forgot your password,asshole?</a></span> <br> <span><a href="#">
+										Create an account</a></span>
+								</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>News</h2><hr>
+					<span id="date1" class="date"></span>
+					<script>
+						let x = Date();
+						document.getElementById("date1").innerHTML = x;
+					</script>
+					<p class="date">We shot a movie, wonna see?</p>
+					<a href="#">WATCH</a>
+				</div>
+				<div class="sidebar">
+					<h2>Movie raitings</h2><hr>
+					<ul class="raitingslist">
+						<li><a href="movie.html">Interstellar</a><span class="raitings_sidebar">  9</span></li>
+						<li><a href="#">Whiplash</a><span class="raitings_sidebar">  8.7</span></li>
+						<li><a href="#">Parassite</a><span class="raitings_sidebar">  8.6</span></li>
+						<li><a href="#">Bleed for this</a><span class="raitings_sidebar">  8.5</span></li>
+							
+					</ul>
+
+				</div>
+
+
+			</div>
+
+			<div class="content">
+				<h1 class="Movies_list">Interstellar</h1><hr>
+				<iframe class ="trailer" width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<div class="info_film_page">
+					<span class="label">Rating: </span><span class="value">9</span> | 
+					<span class="label">Year: </span><span class="value">2014</span> | 
+					<span class="label">Director: </span><span class="value">Christopher Nolan</span>				
+				</div><hr>
+				<div class="discription">
+					<h2>Discription</h2>
+					<img src="https://www.popmovee.com/uploads/1/9/6/2/19626163/interstellar-movie-2014-poster1_1_orig.jpg" >
+					<div class="text_block">
+						<p>
+						Interstellar is a 2014 epic science fiction film directed, co-written and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.
+						<br><br>
+						Brothers Christopher and Jonathan Nolan wrote the screenplay, which had its origins in a script Jonathan developed in 2007. Christopher produced Interstellar with his wife, Emma Thomas, through their production company Syncopy, and with Lynda Obst through Lynda Obst Productions. Caltech theoretical physicist Kip Thorne was an executive producer, acted as scientific consultant, and wrote a tie-in book, The Science of Interstellar. 
+						</p>
+					</div>
+					<hr>
+					<h2>Reviews</h2>
+					<div class="reviews">
+						<div class="review_name">
+							Ashraf Hakimi
+						</div>
+						<div class="review_text">
+							Good, very good, I liked it!
+						</div><br>
+						<div class="review_name">
+							Mario Gotze
+						</div>
+						<div class="review_text">
+							Big fan of this film.
+						</div>
+					</div>
+					<div class="send">
+						<form action="post" action="#" id="review">
+							<input type="text" name="review_name" placeholder="Your name"><br>
+							<textarea name="review_text">
+							</textarea><br>
+							<input type="submit" value="Post"><br>
+
+						<form action=""></form>
+
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+</body>
+</html>

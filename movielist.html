@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="discription" content="We kinda like movies">
+	<meta name="keywords" content="movies,films">
+	<link rel="stylesheet" type="text/css" href="sources/css/style1.css"/>
+
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+			<a href="index1.html"> Kinolar </a>
+
+			</div>
+			<div class="logo_text">
+			<p>We kinda like movies!</p>
+
+			</div>
+		</div>
+		<div class="menubar">
+			<ul class="menu">
+				<li><a href="index1.html">Main page</a></li>
+				<li class="gulag"><a href="movielist.html">Movies</a></li>
+				<li><a href="#">TV shows</a></li>
+				<li><a href="raitings.html">Raitings</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="C:\Users\G50\Dropbox\web-shit\Khalifa.html">Mia</a></li>
+			</ul>
+
+		</div>
+		<div class="site_content">
+			<div class="sitebar_container">
+				<div class="sidebar">
+						<h2>Search</h2><hr width="100%"> 
+						<form method="post" action="#" id="search_form">
+							<input type="search" name="search_field" placeholder="Your request"/>
+							<input type="submit" class="btn"
+							value="Search"/>
+						</form>
+
+				</div>
+				<div class="sidebar">
+					<h2>Enter</h2><hr>
+					<form method="post" action="#" id="login">	
+							<input type="text" name="login_field" placeholder="Your login"/>
+							<input type="password" name="login_password" placeholder="Your password"/>
+							<input type="submit" class="btn"	value="Enter"/>
+								<div class="lables_passreg_text">
+										<span><a href="#">Forgot your password,asshole?</a></span> <br> <span><a href="#">
+										Create an account</a></span>
+								</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>News</h2><hr>
+					<span id="date1" class="date"></span>
+					<script>
+						let x = Date();
+						document.getElementById("date1").innerHTML = x;
+					</script>
+					<p class="date">We shot a movie, wonna see?</p>
+					<a href="#">WATCH</a>
+				</div>
+				<div class="sidebar">
+					<h2>Movie raitings</h2><hr>
+					<ul class="raitingslist">
+						<li><a href="movie.html">Interstellar</a><span class="raitings_sidebar">  9</span></li>
+						<li><a href="#">Whiplash</a><span class="raitings_sidebar">  8.7</span></li>
+						<li><a href="#">Parassite</a><span class="raitings_sidebar">  8.6</span></li>
+						<li><a href="#">Bleed for this</a><span class="raitings_sidebar">  8.5</span></li>
+							
+					</ul>
+
+				</div>
+				
+
+			</div>
+
+			<div class="content">
+				<div class="info_film">
+					<img src="https://www.popmovee.com/uploads/1/9/6/2/19626163/interstellar-movie-2014-poster1_1_orig.jpg">		
+					Interstellar is a 2014 epic science fiction film directed, co-written and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.
+					<spin class="button"> <a href="movie.html">Watch</a></spin>
+				</div>
+				<div class="info_film">
+					<img src="https://i.pinimg.com/564x/0c/92/1c/0c921ca22494902088e55f009228941f.jpg">Parasite (Korean: 기생충; RR: Gisaengchung) is a 2019 South Korean black comedy thriller film directed by Bong Joon-ho, who also co-wrote the screenplay with Han Jin-won. It stars Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam, Jang Hye-jin, and Lee Jung-eun and follows the members of a poor family who scheme to become employed by a wealthy family by infiltrating teir household and posing as unrelated, highly qualified individuals.
+					<spin class="button"> <a href="movie.html">Watch</a></spin>
+				</div>
+				<div class="info_film">
+					<img src="https://cdn.hmv.com/r/w-1280/hmv/files/23/237b1732-997e-46c8-b1f9-47aa3f8ba8a4.jpg">		
+					Whiplash is a 2014 American music drama film written and directed by Damien Chazelle. It depicts the relationship between an ambitious jazz drummer (Miles Teller) and an abusive bandleader (J. K. Simmons) at the fictional Shaffer Conservatory. Paul Reiser and Melissa Benoist co-star.
+					<spin class="button"> <a href="movie.html">Watch</a></spin>
+				</div>
+				<div class="info_film">
+					<img src="https://images-na.ssl-images-amazon.com/images/I/81FwoZLSjlL._SL1500_.jpg">		
+					Bleed for This is a 2016 American biographical sports film written and directed by Ben Younger and based on the life of former world champion boxer Vinny Pazienza. The film stars Miles Teller as Pazienza, with Aaron Eckhart, Katey Sagal, Ciarán Hinds, and Ted Levine in supporting roles.
+					<spin class="button"> <a href="movie.html">Watch</a></spin>
+				</div>
+			</div>
+		
+	</div>
+
+</body>
+</html>
