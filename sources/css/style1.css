@@ -14,7 +14,7 @@
 		animation-iteration-count: infinite;
 	}
 
-	@keyframes example 
+	@keyframes example
 	{
   	0% {background-color: rgba(75, 102, 151, 1);}
   	14% {background-color: rgba(72, 97, 151, 1);}
@@ -32,7 +32,7 @@
 		color: white;
 		font-family: "Lucida Console", Courier, monospace;
 	}
-	
+
 
 	hr
 	{
@@ -66,7 +66,7 @@
 		text-decoration: underline;
 		color: rgb(255, 245, 54);
 	}
-	
+
 	a
 	{
 		text-decoration: none;
@@ -125,7 +125,7 @@
 		text-decoration: none;
 		font-size: inherit;
 		padding-right:5px;
-	}		
+	}
 
 	.logo_text
 	{
@@ -229,11 +229,11 @@
 	.sidbar .raitings_sidebar
 	{
 		float: left;
-	}	
+	}
 
 	ul.raitingslist li
 	{
-		list-style-type: decimal;	
+		list-style-type: decimal;
 		color: white;
 		font-family: "Lucida Console", Courier, monospace;
 		background-color: rgba(0, 0, 57, 1);
@@ -259,7 +259,7 @@
 	{
 		background-color: black;
 	}
-	
+
 	.films_block img, .TV_shows_block img, .discription img
 	{
 		margin-left: 10px		 ;
@@ -269,7 +269,7 @@
 		border: 6px solid black;
 		background-color: white;
 	}
-	
+
 	.discription img
 	{
 		float: left;
@@ -282,12 +282,12 @@
 
 	.reviews
 	{
-		margin-bottom: 4%;	
+		margin-bottom: 4%;
 		font-size: 12px;
 		font-family: "Lucida Console", Courier, monospace;
 		margin-left: 0;
 	}
-	
+
 	.reviews .review_name
 	{
 		background-color: rgba(0, 0, 255, 0.15);
@@ -297,7 +297,7 @@
 		font-size: 17px;
 		padding-left: 4px;
 	}
-	
+
 	.review_text
 	{
 		    background-color: white;
@@ -315,7 +315,7 @@
 	{
 		text-decoration: underline;
 	}
-	
+
 	.trailer
 	{
 		margin-left:44px;
@@ -332,17 +332,17 @@
 		color: white;
 		font-family: "Lucida Console", Courier, monospace;
 	}
-	
+
 	.info_film_page span.value
 	{
 		color: white;
-	
+
 	}
 
 	.discription img
 	{
 		margin: 0 20px 20px 0;
-	}	
+	}
 
 	.send
 	{
@@ -382,21 +382,21 @@
 		color: white;
 		font-family: "Lucida Console", Courier, monospace;
 	}
-	
+
 	td
 	{
 		vertical-align: middle;
-		text-align: center;	
+		text-align: center;
 		border: 1px solid white;
 	}
 
 	.center img
 	{
 		height: 160px;
-		width: 110px;	
+		width: 110px;
 		border: 3px;
 		border-style: outset;
-		border-color: grey;	
+		border-color: grey;
 	}
 
 	.info_film
@@ -418,13 +418,13 @@
 	{
 		margin:5px 13px 0 5px;
 		height: 180px;
-		width: 130px;	
+		width: 130px;
 		border: 3px;
 		float: left;
 		border-style: outset;
-		border-color: rgba(0, 0, 57, 1);	
+		border-color: rgba(0, 0, 57, 1);
 	}
-	
+
 	.info_film a:hover
 	{
 		padding: 5px;
@@ -476,15 +476,15 @@
 	and (min-device-width:320px)
 	and (max-device-width:568px)
 	{
-		.header 
+		.header
 		{
-			background-color: rgb(39 92 117 / 95%);
+			background-color: rgba(0, 0, 59, 0.9);
 			min-width: 100%;
 			height: 150px;
 			text-align: center;
 		}
-		
-		.logo, .logo_text, .site_content 
+
+		.logo, .logo_text, .site_content
 		{
 			width: 100%;
 			text-align: center;
@@ -494,7 +494,7 @@
 		.logo a
 		{
 			text-align: none;
-					
+
 		}
 
 		.logo_text p
@@ -508,17 +508,17 @@
 			width: 140%;
 			height: 100%;
 		}
-		
+
 		.site_content
 		{
 			text-align: center;
 		}
-			
+
 		.sitebar_container
 		{
 			display: none;
 		}
-	
+
 		.footer
 		{
 			display: none;
@@ -528,13 +528,13 @@
 		{
 			float: none;
 		}
-	
+
 		ul.mune li
 		{
 			padding: 0;
 			margin: 0;
 			float: none;
-		}	
+		}
 		.logo a
 		{
 			font: normal 130% "Lucida Console", Courier, monospace;
@@ -543,7 +543,7 @@
 		{
 			font: normal 40% "Lucida Console", Courier, monospace;
 		}
-		.content 
+		.content
 		{
 			width: 100%;
 			text-align: center;
@@ -552,7 +552,7 @@
 		.content img
 		{
 			width: 100px;
-			height: 158px;	
+			height: 158px;
 		}
 
 		.films_block, .TV_shows_block
@@ -563,9 +563,9 @@
 
 		.content h1, h2
 		{
-			font: normal 150% "Lucida Console", Courier, monospace;	
+			font: normal 150% "Lucida Console", Courier, monospace;
 		}
-	
+
 		/* movielist.html */
 
 		.info_film img
@@ -592,7 +592,7 @@
 
 		.table img
 		{
-			width: 37px	;	
+			width: 37px	;
 			height: 62px;
 		}
 
@@ -610,7 +610,7 @@
 			padding: 0;
 			margin: 0;
 		}
-	
+
 		/*movie.html*/
 
 		iframe
@@ -618,14 +618,14 @@
 			width: 88%;
 			height: 100%;
 		}
-				
+
 		.trailer
 		{
 			margin: 0;
 			text-align: center;
 			margin-right: 10px;
 		}
-		.text_block 
+		.text_block
 		{
 			text-align: none;
 			float: none;
@@ -633,12 +633,11 @@
 			text-align: left;
 		}
 
-		.send textarea 
+		.send textarea
 		{
 			width: 100%;
 			height: 76px;
-		}	
+		}
 
 
-	}	
-
+	}
